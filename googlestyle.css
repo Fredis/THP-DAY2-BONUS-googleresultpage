@@ -1,0 +1,80 @@
+body
+{
+	margin-left: 0px;
+	font-family: arial,sans-serif;
+}
+
+.conteneurHeader
+{
+	border-bottom: 1px solid #ebebeb;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	background-color: #fafafa;
+	padding-top: 25px;
+}
+
+.conteneurHeaderGoogle
+{
+	margin-left: 10px;
+	width: 7%;
+	height: auto;
+	float: left;
+}
+
+.conteneurHeaderRest
+{
+	width: 90%;
+	height: auto;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+}
+
+.conteneurHeaderRestElement:nth-child(1)
+{
+	margin-left: 10px;
+}
+
+input
+{
+	width: 600px;
+	height: 40px;
+    background-image: url(images/search.png);
+    background-position: right;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.conteneurHeaderRestElement:nth-child(2)
+{
+	margin-top: 5px;
+}
+
+.conteneurHeaderNav
+{
+	padding-top: 20px;
+	clear: both;
+	width: 70%;
+	margin-left: 8.1%;
+	color: #777;
+	font-size: 0.8em;
+}
+
+ul
+{
+	list-style-type: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+li
+{
+	display: inline;
+	vertical-align: bottom;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
